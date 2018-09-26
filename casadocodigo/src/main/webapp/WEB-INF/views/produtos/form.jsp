@@ -23,7 +23,7 @@
 				<input type="text" name="paginas" />
 			</div>
 			
-			<c:forEach items="${tipos}" value="tipoPreco" varStatus="status">
+			<c:forEach items="${tipos}" var="tipoPreco" varStatus="status">
 				<div>
 					<label>${tipoPreco}</label>
 					<input type="text" name="precos[${status.index}].valor" />
