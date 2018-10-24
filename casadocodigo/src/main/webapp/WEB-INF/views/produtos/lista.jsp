@@ -12,6 +12,7 @@
 	<body>
 		<h1>Lista de Produtos</h1>
 		<div>${sucesso}</div>
+		<div>${falha}</div>
 		<table border="1" width="30%">
 		    <tr>
 		        <td>Título</td>
